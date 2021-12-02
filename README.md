@@ -11,13 +11,13 @@ Supondo que o Python esteja instalado, considere as seguintes etapas:
 
 Execute o seguinte comando no prompt de comando para instalar o pip e a wheel:
 
-# python -m pip install --upgrade pip wheel setuptools
+ python -m pip install --upgrade pip wheel setuptools
 
 2. Agora temos que instalar as dependências. Execute os seguintes comandos:
 python -m pip install docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew
 Depois:
 
-# python -m pip install kivy.deps.gstreamer
+ python -m pip install kivy.deps.gstreamer
 
 3. Depois de instalar as dependências do Kivy, instale o Kivy usando o seguinte comando:
 python –m pip install kivy
