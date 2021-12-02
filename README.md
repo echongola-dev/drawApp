@@ -15,6 +15,7 @@ Execute o seguinte comando no prompt de comando para instalar o pip e a wheel:
 
 2. Agora temos que instalar as dependências. Execute os seguintes comandos:
 python -m pip install docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew
+
 Depois:
 
  python -m pip install kivy.deps.gstreamer
@@ -33,3 +34,5 @@ Por padrão, o Kivy tenta carregar o arquivo Kv com o mesmo nome da sua classe, 
 Se sua classe for TestApp, ele irá procurar um arquivo Kv com o nome test.kv no mesmo diretório para carregar widgets a partir dele. 
 
 E corremos o arquivo .py. e o resultado esta na multimedia abaixo:
+
+![Screenshot (73)](https://user-images.githubusercontent.com/71687136/144519443-7a3e8cb3-172a-49f7-806e-537739e5dbff.png)
