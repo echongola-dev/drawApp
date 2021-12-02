@@ -1,0 +1,25 @@
+# Drawing.kv implementação
+ 
+# para atribuir cor aleatória ao pincel
+#:import rnd random
+ 
+# Codificação de pincel de pintura
+<Paint_brush>:
+    size_hint: None, None
+    size: 25, 50
+    canvas:
+        Color:
+            rgb: rnd.random(), rnd.random(), rnd.random()
+        Triangle:
+            points:
+                (self.x, self.y, self.x + self.width / 4, self.y,
+                self.x + self.width / 4, self.y + self.height / 4)
+ 
+# Criação de bloco de desenho           
+<Drawing>:
+    canvas:
+        Color:
+            rgb: .0, .0, .0
+        Rectangle:
+            size: root.size
+            pos: root.pos
